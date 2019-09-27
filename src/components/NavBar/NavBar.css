@@ -1,0 +1,64 @@
+.banner-container{
+  position: relative;
+}
+
+.banner{
+  width: 100vw;
+  height: 100px;
+  z-index: -1; 
+  opacity: 0.5
+}
+
+.banner-text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+}
+
+.navbar{
+  background-color: #404542;
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.navbar-button{
+  margin: 5px;
+  padding-bottom: 20px;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  
+}
+
+.navbar-button:hover {
+  color: green;
+}
+
+.navbar-button:link {
+  text-decoration: none;
+}
+
+.search-bar{
+  margin: 7px;
+}
+
+.dropdown {
+  background-color: #404542;
+  color: white;
+  text-decoration: none;
+  height: 26vh;
+  width: 10vw;
+  margin-top: 98px;
+  position: absolute;
+  top:35px;
+  align-self: center;
+  font-size: 16px;
+  letter-spacing: 1px;
+  padding: 10px;
+  z-index: 1;
+}
+

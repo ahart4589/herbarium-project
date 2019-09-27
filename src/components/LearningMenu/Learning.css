@@ -1,0 +1,15 @@
+.dropdown {
+  background-color: #1F2833;
+  height: 70vh;
+  width: 92vw;
+  margin-top: 75px;
+  position: absolute;
+  top:35px;
+  color: #45A29E;
+  align-self: center;
+  font-size: 16px;
+  font-family: Raleway;
+  letter-spacing: 1px;
+  padding: 20px;
+  z-index: 1;
+}
